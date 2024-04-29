@@ -21,6 +21,7 @@ ul, ol{
 }
 
 body{
+    background-image: linear-gradient(to right top, #e3d6dd, #e0cbcf, #dac1be, #d1b9ad, #c3b29d, #c1b197, #bfb091, #bbb08c, #cab48c, #dbb78d, #edb991, #ffbb97);
 
 }
 p, li{
@@ -78,12 +79,12 @@ h1, h2{
     border-bottom: none;
 }
 .attribution {
-     font-size: 14px; 
+     font-size: 14px;
      text-align: center;
      margin-bottom: 5rem;
      margin-top: 2rem;
  }
-.attribution a { 
+.attribution a {
     color: hsl(228, 45%, 44%);
  }
  @media(min-width:768px){
@@ -96,4 +97,10 @@ h1, h2{
     img{
         border-radius: 1rem;
     }
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
